@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.10)
+project(game)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(game
+    main.cc
+    Hare.cc
+    Race.cc
+    Tortoise.cc
+)
